@@ -94,6 +94,7 @@
                 .links{
                   text-decoration: none;
                   color: #fff;
+                  font-size: 15px;
                   font-weight: 1000;
                 }
               }
@@ -120,7 +121,13 @@
                   text-decoration: none;
                   color: #fff;
                   font-weight: 1000;
-                  &:hover{
+                }
+                &:hover{
+                  background-image: url('bg.png');
+                  background-size: cover;
+                  background-position: top;
+                  background-repeat: no-repeat;
+                  i{
                     cursor: pointer;
                     background: linear-gradient(45deg, red, yellow, lime, cyan, blue, magenta, red);
                     background-size: 300%;
@@ -128,12 +135,6 @@
                     -webkit-text-fill-color: transparent;
                     animation: textAnimate 2s linear infinite;
                   }
-                }
-                &:hover{
-                  background-image: url('bg.png');
-                  background-size: cover;
-                  background-position: top;
-                  background-repeat: no-repeat;
                 }
               }
             }
