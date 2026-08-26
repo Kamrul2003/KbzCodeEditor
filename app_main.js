@@ -123,7 +123,7 @@ cReset.onclick = () =>{
 body{
   width: 100%;
   height: 100vh;
-  padding: 100px 0 0 100px;
+  padding: 100px 0 0 80px;
   background: #FFFFFF;
 }
 
