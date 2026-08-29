@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <meta name="description" content="KBZ Code Editor is a free online HTML, CSS, and JavaScript editor with live preview. Created by Kamrul.">
+  <meta name="author" content="Kamrul2003">
+  <link rel="canonical" href="https://kamrul2003.github.io/KbzCodeEditor/">
+  <link rel="shortcut icon" href="my_image.png" type="image/png">
+  <title>KBZ Code Editor | Online HTML CSS JS Editor</title>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css">
+  <link rel="stylesheet" href="style-400.css">
+  <link rel="stylesheet" href="style-600.css">
+  <link rel="stylesheet" href="style-1400.css">
+</head>
+<body>
+  <app class="app">
+    <div class="header">
+      <button class="iconBox textAnim"><i class="fa-solid fa-code"></i></button></button>
+      <div class="headerBox">
+        <h2 class="headding textAnim">KBZ CODE EDITOR</h2>
+        <a class="headding textAnim" href="#">kamrul2003.github.io/KbzCodeEditor/</a>
+      </div>
+    </div>
+    <div class="frameBox">
+      <nav class="boxHeader">
+        <div class="fileGroup">
+          <button class="tab" data="HTML" style = "background-image: url('bg.png');"><span class="tabDot tabH"></span><a class="links textAnim">HTML</a></button>
+          <button class="tab" data="CSS"><span class="tabDot tabC"></span><a class="links">CSS</a></button>
+          <button class="tab" data="JS"><span class="tabDot tabJ"></span><a class="links">JS</a></button>
+        </div>
+        <div class="commGroup">
+          <button class="commnd commndRun"><i class="fa-solid fa-play"></i></button>
+          <button class="commnd commndReset"><i class="fa-solid fa-arrow-rotate-left"></i></button>
+        </div>
+      </nav>
+      <div class="CoderBox">
+        
+        <!__  HTML CODE EXPLAIN IS HERE  __>
+        <textarea class="htmlCoder codeFile" placeholder="Write your HTML code here..." spellcheck="false"><i>Ex,</i>
+
+<h1>Hellow World</h1>
+<p>Welcome to Live Code Editor.</p>
+</textarea>
+
+
+        <!__  CSS CODE EXPLAIN IS HERE  __>
+        <textarea class="cssCoder codeFile" hidden placeholder="Write your CSS code here..." spellcheck="false">
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body{
+  width: 100%;
+  height: 100vh;
+  padding: 100px 0 0 80px;
+  background: #FFFFFF;
+}
+
+i{
+  color: #707070;
+  font-weight: 1000;
+}
+
+h1{
+  color: #333;
+}
+
+p{
+  color: blue;
+  font-size: 20px;
+  font-weight: 800;
+}
+</textarea>
+
+
+        <!__  JS CODE EXPLAIN IS HERE  __>
+        <textarea class="jsCoder codeFile" hidden placeholder="Write your JS code here..." spellcheck="false">
+window.onclick = () => {
+  alert(' ʜᴇʟʟᴏ(•̀’◡’•̀)ﾉ Brother.');
+}
+</textarea>
+
+
+      </div>
+      <div class="OutputBox">
+        <div class="title">
+          <img src="my_image.png" alt="">
+          <button class="OutputBoxTitle">
+            <span class="textAnim">LIVE OUTPUT</span>
+          </button>
+        </div>
+        <iframe class="previewSrc" title="Live Preview"> Hellow Bangladesh </iframe>
+      </div>
+    </div>
+  </app>
+  <script src="app_main.js"></script>
+</body>
+</html>
