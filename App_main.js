@@ -165,7 +165,7 @@ p{
 
   function downloadApp() {
     // তোমার APK ফাইলের লিঙ্ক এখানে বসাও
-    window.location.href = "https://kamrul2003.github.io/KbzCodeEditor/App/app-release_1.apk";
+    window.location.href = "https://kamrul2003.github.io/KbzCodeEditor/App/KBZ_Code_Live.apk";
   }
 
 
