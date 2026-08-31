@@ -10,7 +10,7 @@
       padding: 30px 0 0 0;
       background: linear-gradient(135deg,#fff,#667eea,#fff);
       background-repeat: no-repeat;
-      .app{
+      .application{
         width: 100%;
         height: 780px;
         background: transparent;
@@ -53,8 +53,8 @@
           }
         }
         .frameBox{
-          width: 100%;   /* t-p, bH, CB,  OB*/
-          height: 700px; /* 5*2, 30, 250, 410*/
+          width: 100%;
+          height: 750px;
           padding: 5px;
           background: transparent;
           .boxHeader{
@@ -141,14 +141,12 @@
           }
           .CoderBox{
             width: 100%;
-            height: 245px;/*380*/
+            height: 230px;
             .codeFile{
-              min-width: 100%;
-              max-width: 100%;
-              min-height: 100%;
-              max-height: 330px;
+              width: 100%;
+              height: 230px;
               resize: none;
-              font-size: 17px;
+              font-size: 15px;
               padding: 5px 10px;
               border-radius: 15px 15px 0 0;
               background: #2d0270;
@@ -159,7 +157,7 @@
           }
           .OutputBox{
             width: 100%;
-            height: 415px;/*250*/
+            height: 435px;
             .title{
               width: 100%;
               height: 65px;
@@ -182,18 +180,61 @@
                 user-select: none;
                 }
               }
-              img{
+              .owner{
                 width: 50px;
                 height: 50px;
-                border-radius: 50%;
+                overflow: hidden;
+                img{
+                  width: 50px;
+                  height: 50px;
+                  border-radius: 50%;
+                }
+                &:hover, &:active{
+                  position: absolute;
+                  top: 0:
+                  left: 0;
+                  width: 350px;
+                  height: 350px;
+                  display: flex;
+                  gap: 5px;
+                  overflow-x: auto;
+                  scroll-behavior: smooth;
+                  border-radius: 25px;
+                  img{
+                  width: 100%;
+                  height: 100%;
+                  border-radius: 25px;
+                  }
+                }
               }
             }
             .previewSrc{
               width: 100%;
-              min-height: 350px;
+              height: 370px;
               background: #ffffff;
               border: 3px solid #413e3e;
               border-radius: 0 0 15px 15px;
+            }
+          }
+          .MyLinkings{
+            width: 100%;
+            height: 60px;
+            margin-top: 15px;
+            padding: 0 50px;
+            cursor:pointer;
+            display: flex;
+            justify-content: space-around;
+            a{
+              width: 60px;
+              height: 60px;
+              cursor:pointer;
+              border-radius: 50%;
+              img{
+               width: 60px;
+               height: 60px;
+               cursor:pointer;
+               border-radius: 50%;
+              }
             }
           }
         }
