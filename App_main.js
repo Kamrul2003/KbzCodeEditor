@@ -110,48 +110,7 @@ jsFile.addEventListener("input", createPreview);
    ✅ Apply ==III== RESET ALL FILE WITH PREVIEW
 ======================================== */
 cReset.onclick = () =>{
-  //HTML Preview
-   htmlFile.value = `<div class="app">
-<i>Ex,</i>
-<h1>Hellow World</h1>
-<p>Welcome to Live Code Editor.</p>
-</div>`; 
-
-  //CSS Preview
-   cssFile.value = `*{
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
-}
-
-body{
-  width: 100%;
-  height: 100vh;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  background: #FFFFFF;
-}
-
-i{
-  color: #707070;
-  font-weight: 1000;
-}
-
-h1{
-  color: #333;
-}
-
-p{
-  color: blue;
-  font-size: 20px;
-  font-weight: 800;
-}`; 
-
-//JS Preview
-   jsFile.value = "";
-   
-   createPreview();
+  reStartPreview();
 }
 
 
@@ -214,7 +173,7 @@ p{
 
 
   function openApp(url) {
-    window.location.href = url;
+    window.open(url, "_blank");
   }
 
 
