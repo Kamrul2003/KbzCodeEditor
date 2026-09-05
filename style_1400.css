@@ -146,7 +146,7 @@
           } /*50px*/
           .CoderBox{
             width: 40%;
-            height: 535px;
+            height: 540px;
             .codeFile{
               width: 100%;
               height: 100%;
@@ -159,10 +159,10 @@
               border-radius: 15px 0 0 15px;
               outline: none;
             }
-          } /*535px*/
+          } /*540px*/
           .OutputBox{
             width: 60%;
-            height: 535px;
+            height: 540px;
             .title{
               position: absolute;
               top: 5px;
@@ -205,7 +205,7 @@
               border: 3px solid #413e3e;
               border-radius: 0 15px 15px 0;
             }
-          } /*535px*/
+          } /*540px*/
           .MyLinkings{
             position: fixed;
             top: 0 ;
