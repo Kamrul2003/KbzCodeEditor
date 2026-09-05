@@ -6,15 +6,17 @@
     }
     body{
       width: 100%;
-      max-height: 743px;
-      padding: 30px 0 0 0;
+      height: 100vh;
+      padding: 10px 0 0 0;
+      Bborder: #000 2px solid;
       background: linear-gradient(135deg,#fff,#667eea,#fff);
       background-repeat: no-repeat;
       .application{
         width: 100%;
-        height: 100dvh;
+        height: 100%;
+        background: #fff;
         background: transparent;
-        border: #000 2px splid;
+        border: #000 4px solid;
         .textAnim{
           cursor: pointer;
           background: linear-gradient(45deg, red, yellow, lime, cyan, blue, magenta, red);
@@ -24,7 +26,7 @@
           animation: textAnimate 2s linear infinite;
         }
         .header{
-          width: 90%;
+          width: 60%;
           height: 70px;
           color: #fff;
           display: flex;
@@ -52,11 +54,11 @@
             flex-grow: 1;
             padding: 0 10px;
           }
-        }
+        } /*70px*/
         .frameBox{
           position: relative;
           width: 100%;
-          height: 633px; 
+          height: 605px; 
           padding: 15px;
           display: flex;
           flex-wrap: wrap; 
@@ -64,8 +66,8 @@
           .boxHeader{
             width: 70%;
             height: 40px;
-            margin-bottom: 7px;
             display: flex;
+            margin-bottom: 10px;
             background: transparent;
             justify-content: space-between;
             .fileGroup{
@@ -141,10 +143,10 @@
                 }
               }
             }
-          }
+          } /*50px*/
           .CoderBox{
             width: 40%;
-            height: 560px;
+            height: 535px;
             .codeFile{
               width: 100%;
               height: 100%;
@@ -157,10 +159,10 @@
               border-radius: 15px 0 0 15px;
               outline: none;
             }
-          }
+          } /*535px*/
           .OutputBox{
             width: 60%;
-            height: 560px;
+            height: 535px;
             .title{
               position: absolute;
               top: 5px;
@@ -195,7 +197,7 @@
                 user-select: none;
                 border-radius: 50%;
               }
-            }
+            } /*55px*/
             .previewSrc{
               width: 100%;
               height: 100%;
@@ -203,14 +205,17 @@
               border: 3px solid #413e3e;
               border-radius: 0 15px 15px 0;
             }
-          }
+          } /*535px*/
           .MyLinkings{
-            width: 100%;
-            height: 60px;
-            margin-top: 10px;
-            padding: 0 50px;
+            position: fixed;
+            top: 0 ;
+            right: 0%;
+            width: 25%;
+            height: 70px;
+            padding-top: 5px;
+            margin: 10px 5% 10px 5%;
             display: flex;
-            gap: 100px;
+            gap: 20px;
             justify-content: center;
             a{
               width: 60px;
@@ -222,7 +227,7 @@
                 border-radius: 50%;
               }
             }
-          }
+          } /*70px Fixed-Top*/
         }
       }
     }
